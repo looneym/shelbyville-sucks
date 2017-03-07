@@ -1,6 +1,8 @@
 # Shelbyville sucks!
 Simpsons Characters as a Service
 
+![N|Solid](https://i.redditmedia.com/sEXLnlcc1ABfnEYaoe7ag3zSEG5Fop4-52__l0A8DwU.jpg?w=640&s=a503d90892240c8ff67c2dc066033528)
+
 # What?
 Seeds an Intercom app with test users who happen to be the most famous characters from the Simpsons
 
