@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import jsonpickle
+from subprocess import call
 
 def get_email(name):
     no_special_chars = "".join( c for c in name if  c not in "'':." )
@@ -16,6 +17,7 @@ class Character:
         self.email = email
         self.characters.append(self)        
 
+call(["curl", "http://www.imdb.com/list/ls073988033/", "-o", "index.html"])
 
 soup = BeautifulSoup(open("index.html"))
 mydivs = soup.findAll("div", { "class" : "info" })
